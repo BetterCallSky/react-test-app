@@ -1,0 +1,19 @@
+.App {
+}
+
+.App-header {
+  background-color: #222;
+  height: 80px;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.App-content {
+  max-width: 600px;
+  margin: 10px auto;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}

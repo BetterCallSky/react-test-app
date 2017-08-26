@@ -1,0 +1,16 @@
+{
+  "extends": "eslint-config-lenel",
+  "env": {
+    "browser": true
+  },
+  "globals": {
+    "__DEV__": true,
+    "__PROD__": true,
+    "__COVERAGE__": true,
+    "expect": true,
+  },
+  "rules": {
+    'no-magic-numbers': 0,
+    'no-alert': 0,
+  }
+}
