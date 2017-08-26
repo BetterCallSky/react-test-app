@@ -12,8 +12,8 @@ This is an example qualification task for React + Redux.
    - `last name` - required, any string
    - `email` - required, must be a valid email address, you can find a proper module for email validation
 3. After clicking on the `Submit` button, the form should be validated, and all invalid fields should be highlighted with the red border.
- You can set `hasError` in the `Field` component. **It's a very important requirement.**
-4. Both sections (accordions) can be expanded or collapsed. After clicking `Submit`, you must expand an accordion if it contains invalid fields.
+ You can set `hasError` in the `Field` component.
+4. Both sections (accordions) can be expanded or collapsed. After clicking `Submit`, you must expand an accordion if it contains invalid fields.  **It's a very important requirement.**
 5. `Outside button` should also submit the form. The only difference is that it's embedded outside of the form.
 
 
@@ -25,4 +25,4 @@ This is an example qualification task for React + Redux.
 You can also use [uncontrollable](https://www.npmjs.com/package/uncontrollable).
 4. You are free to change/refactor any component.
 5. Pay attention to JS code, CSS is less important. Your code should pass ESlint validation by running a command `npm run lint`.
-6. There is an example module (reducer) and example containers.
+6. There is an example module (`home`) and example containers (`TitleContainer`).
