@@ -5,6 +5,8 @@ This is an example qualification task for React + Redux.
 
 ## Requirements
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/BetterCallSky/react-test-app.svg)](https://greenkeeper.io/)
+
 1. Add form validation to the existing form using [redux-form](http://redux-form.com/7.0.3/).
 2. There are 4 fields. Validation rules:
    - `username` - required, must be only a-z, A-Z, 0-9
